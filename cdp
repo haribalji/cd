@@ -1,4 +1,4 @@
-ex1
+ex1.l lexical analysis for few patterns
 
 %{ 
 #include<stdio.h> 
@@ -51,7 +51,7 @@ yylex(); return 1;
 } 
 
 
-ex21
+ex21.l lexical analysis using lex tool 1,2,3,4,5
 
 %option noyywrap
 %{ 
@@ -103,7 +103,8 @@ int yywrap()
 }
 
 
-ex3a-1
+ex3a-1.L arithmetic expression a=b+c
+ 6press flex filename enter then GCC lex.yy.c enter then a.exe then write expressions a=b+c
 %{
 #include "yacc.tab.h"
 %}
@@ -125,7 +126,7 @@ ex3a-1
 %%
 
 
-ex3a-2
+ex3a.y 6 press first run him then yacc 3a.y
 
 
 
@@ -174,7 +175,7 @@ int main(void) {
 
 
 
-3b-1L
+3b-1.L variable validation O/p a or a+
 
 
 %{
@@ -234,7 +235,7 @@ int main() {
 
 
 
-ex3c-1
+ex3c-1 for loop validation
 
 
 
@@ -335,7 +336,7 @@ return 0;
 
 
 
-ex-3d-1
+ex-3d-1ccalculator, 1+2 enter
 
 
 
@@ -360,7 +361,8 @@ return 1;
 }
 
 
-ex3d-2
+ex3d-2 
+
 
 
 
@@ -413,7 +415,7 @@ void yyerror(const char* s) {
 
 ------
 
-ex4-1
+ex4-1 intermediate code I/p-->+2*3
 
 %{
 #include<stdio.h>
