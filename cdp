@@ -104,7 +104,7 @@ int yywrap()
 
 
 ex3a-1.L arithmetic expression a=b+c
- 6press flex filename enter then GCC lex.yy.c enter then a.exe then write expressions a=b+c
+ 6press flex filename enter then GCC lex.yy.c  if error GCC lex.yy.c anothefilename. tab. c  then a.exe then write expressions a=b+c
 %{
 #include "yacc.tab.h"
 %}
@@ -126,7 +126,7 @@ ex3a-1.L arithmetic expression a=b+c
 %%
 
 
-ex3a.y 6 press first run him then yacc 3a.y
+ex3a.y 6 press first run him then yacc -d 3a.y
 
 
 
